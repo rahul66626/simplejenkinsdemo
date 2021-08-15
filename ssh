@@ -1,0 +1,5 @@
+ssh-keygen -t rsa -b 4096 -C <YourEmailId>
+Run eval "$(ssh-agent -s)" to get the agent process id.
+Run ssh-add ~/.ssh/id_rsa to add the SSH  key to the SSH  agent.
+Run cat < ~/.ssh/id_rsa.pub to display the key. Copy it to the clipboard
+
